@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basicfamily="http://www.eclipse.org/dsl/basicfamily" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description">
+  <viewpoint:DAnalysis uid="_mW41sIAFEeq5GYte_U9aHA" selectedViews="_ukxKMIASEeq5GYte_U9aHA" version="14.3.0.201909031200">
+    <semanticResources>example.basicfamily</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_ukxKMIASEeq5GYte_U9aHA">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/org.eclipse.dsl.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='Basicfamily']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_BHMYAYAdEeq5GYte_U9aHA" name="Nemanjici" repPath="#_BHJ7wIAdEeq5GYte_U9aHA" changeId="2f68570d-15e8-45e5-b669-b067d5aef079">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/org.eclipse.dsl.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='Basicfamily']/@ownedRepresentations[name='Nemanjici']"/>
+        <target xmi:type="basicfamily:Family" href="example.basicfamily#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_BHJ7wIAdEeq5GYte_U9aHA">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_BHLw8IAdEeq5GYte_U9aHA" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_BHLw8YAdEeq5GYte_U9aHA"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_BHM_EIAdEeq5GYte_U9aHA" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_BHM_EYAdEeq5GYte_U9aHA" type="Sirius" element="_BHJ7wIAdEeq5GYte_U9aHA" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_KTxEAIKIEeq5mpik8MmZpA" type="2001" element="_KSn0gIKIEeq5mpik8MmZpA">
+          <children xmi:type="notation:Node" xmi:id="_KT4_0IKIEeq5mpik8MmZpA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_KT4_0YKIEeq5mpik8MmZpA" y="5"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_KTxEAYKIEeq5mpik8MmZpA" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KTxEAoKIEeq5mpik8MmZpA" width="20" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_KT61AIKIEeq5mpik8MmZpA" type="2001" element="_KSuiMIKIEeq5mpik8MmZpA">
+          <children xmi:type="notation:Node" xmi:id="_KT8DIIKIEeq5mpik8MmZpA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_KT8DIYKIEeq5mpik8MmZpA" y="5"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_KT61AYKIEeq5mpik8MmZpA" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KT61AoKIEeq5mpik8MmZpA" x="72" width="20" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_KT8DIoKIEeq5mpik8MmZpA" type="2001" element="_KSvJQIKIEeq5mpik8MmZpA">
+          <children xmi:type="notation:Node" xmi:id="_KT94UIKIEeq5mpik8MmZpA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_KT94UYKIEeq5mpik8MmZpA" y="5"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_KT8DI4KIEeq5mpik8MmZpA" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KT8DJIKIEeq5mpik8MmZpA" x="144" width="20" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_KT-fYIKIEeq5mpik8MmZpA" type="2001" element="_KSvwUIKIEeq5mpik8MmZpA">
+          <children xmi:type="notation:Node" xmi:id="_KT_GcIKIEeq5mpik8MmZpA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_KT_GcYKIEeq5mpik8MmZpA" y="5"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_KT-fYYKIEeq5mpik8MmZpA" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KT-fYoKIEeq5mpik8MmZpA" x="216" width="20" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_KUAUkIKIEeq5mpik8MmZpA" type="2001" element="_KSwXYIKIEeq5mpik8MmZpA">
+          <children xmi:type="notation:Node" xmi:id="_KUBisIKIEeq5mpik8MmZpA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_KUBisYKIEeq5mpik8MmZpA" y="5"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_KUAUkYKIEeq5mpik8MmZpA" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KUAUkoKIEeq5mpik8MmZpA" x="276" width="20" height="20"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_BHM_EoAdEeq5GYte_U9aHA"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_KSn0gIKIEeq5mpik8MmZpA">
+      <target xmi:type="basicfamily:Man" href="example.basicfamily#//@members.0"/>
+      <semanticElements xmi:type="basicfamily:Man" href="example.basicfamily#//@members.0"/>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.dsl.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='Basicfamily']/@ownedRepresentations[name='Nemanjici']/@defaultLayer/@nodeMappings[name='ManNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_KSuiMIKIEeq5mpik8MmZpA">
+      <target xmi:type="basicfamily:Man" href="example.basicfamily#//@members.2"/>
+      <semanticElements xmi:type="basicfamily:Man" href="example.basicfamily#//@members.2"/>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.dsl.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='Basicfamily']/@ownedRepresentations[name='Nemanjici']/@defaultLayer/@nodeMappings[name='ManNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_KSvJQIKIEeq5mpik8MmZpA">
+      <target xmi:type="basicfamily:Man" href="example.basicfamily#//@members.3"/>
+      <semanticElements xmi:type="basicfamily:Man" href="example.basicfamily#//@members.3"/>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.dsl.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='Basicfamily']/@ownedRepresentations[name='Nemanjici']/@defaultLayer/@nodeMappings[name='ManNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_KSvwUIKIEeq5mpik8MmZpA">
+      <target xmi:type="basicfamily:Man" href="example.basicfamily#//@members.4"/>
+      <semanticElements xmi:type="basicfamily:Man" href="example.basicfamily#//@members.4"/>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.dsl.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='Basicfamily']/@ownedRepresentations[name='Nemanjici']/@defaultLayer/@nodeMappings[name='ManNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_KSwXYIKIEeq5mpik8MmZpA">
+      <target xmi:type="basicfamily:Man" href="example.basicfamily#//@members.6"/>
+      <semanticElements xmi:type="basicfamily:Man" href="example.basicfamily#//@members.6"/>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.dsl.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='Basicfamily']/@ownedRepresentations[name='Nemanjici']/@defaultLayer/@nodeMappings[name='ManNode']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/org.eclipse.dsl.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='Basicfamily']/@ownedRepresentations[name='Nemanjici']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_BHKi0IAdEeq5GYte_U9aHA"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/org.eclipse.dsl.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='Basicfamily']/@ownedRepresentations[name='Nemanjici']/@defaultLayer"/>
+    <target xmi:type="basicfamily:Family" href="example.basicfamily#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

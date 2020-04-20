@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="basicfamily" version="12.0.0.2017041100">
+  <ownedViewpoints name="Basicfamily" modelFileExtension="basicfamily">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="Nemanjici" domainClass="basicfamily::Family" enablePopupBars="true">
+      <defaultLayer name="Default">
+        <nodeMappings name="ManNode" semanticCandidatesExpression="feature:members" domainClass="basicfamily::Man">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/org.eclipse.dsl.basicfamily.design/icons8-man-48.gif">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="WomanNode" semanticCandidatesExpression="feature:members" domainClass="basicfamily::Woman">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/org.eclipse.dsl.basicfamily.design/icons8-woman-48.gif">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="fatherRel" deletionDescription="//@ownedViewpoints[name='Basicfamily']/@ownedRepresentations[name='Nemanjici']/@defaultLayer/@toolSections.0/@ownedTools[name='unsetFather']" sourceMapping="//@ownedViewpoints[name='Basicfamily']/@ownedRepresentations[name='Nemanjici']/@defaultLayer/@nodeMappings[name='ManNode'] //@ownedViewpoints[name='Basicfamily']/@ownedRepresentations[name='Nemanjici']/@defaultLayer/@nodeMappings[name='WomanNode']" targetMapping="//@ownedViewpoints[name='Basicfamily']/@ownedRepresentations[name='Nemanjici']/@defaultLayer/@nodeMappings[name='ManNode']" targetFinderExpression="feature:father" reconnections="//@ownedViewpoints[name='Basicfamily']/@ownedRepresentations[name='Nemanjici']/@defaultLayer/@toolSections.0/@ownedTools[name='reconnectFather']">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="motherRel" deletionDescription="//@ownedViewpoints[name='Basicfamily']/@ownedRepresentations[name='Nemanjici']/@defaultLayer/@toolSections.0/@ownedTools[name='unsetMother']" sourceMapping="//@ownedViewpoints[name='Basicfamily']/@ownedRepresentations[name='Nemanjici']/@defaultLayer/@nodeMappings[name='ManNode'] //@ownedViewpoints[name='Basicfamily']/@ownedRepresentations[name='Nemanjici']/@defaultLayer/@nodeMappings[name='WomanNode']" targetMapping="//@ownedViewpoints[name='Basicfamily']/@ownedRepresentations[name='Nemanjici']/@defaultLayer/@nodeMappings[name='WomanNode']" targetFinderExpression="feature:mother" reconnections="//@ownedViewpoints[name='Basicfamily']/@ownedRepresentations[name='Nemanjici']/@defaultLayer/@toolSections.0/@ownedTools[name='reconnectMother']">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <toolSections>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Man Creation" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='Basicfamily']/@ownedRepresentations[name='Nemanjici']/@defaultLayer/@nodeMappings[name='ManNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="basicfamily::Man" referenceName="members"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Woman Creation" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='Basicfamily']/@ownedRepresentations[name='Nemanjici']/@defaultLayer/@nodeMappings[name='WomanNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="basicfamily::Woman" referenceName="members"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ReconnectEdgeDescription" name="reconnectFather" forceRefresh="true">
+            <source name="source"/>
+            <target name="target"/>
+            <sourceView name="sourceView"/>
+            <targetView name="targetView"/>
+            <element name="element"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:element">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="father" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+            <edgeView name="edgeView"/>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ReconnectEdgeDescription" name="reconnectMother" forceRefresh="true">
+            <source name="source"/>
+            <target name="target"/>
+            <sourceView name="sourceView"/>
+            <targetView name="targetView"/>
+            <element name="element"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:element">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="mother" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+            <edgeView name="edgeView"/>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="setFather" forceRefresh="true" edgeMappings="//@ownedViewpoints[name='Basicfamily']/@ownedRepresentations[name='Nemanjici']/@defaultLayer/@edgeMappings[name='fatherRel']" iconPath="/org.eclipse.dsl.basicfamily.design/icons8-line-32.png">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="father" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="setMother" forceRefresh="true" edgeMappings="//@ownedViewpoints[name='Basicfamily']/@ownedRepresentations[name='Nemanjici']/@defaultLayer/@edgeMappings[name='motherRel']" iconPath="/org.eclipse.dsl.basicfamily.design/icons8-line-48.png">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="mother" valueExpression="var:source"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="unsetFather" forceRefresh="true">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:element">
+                <subModelOperations xsi:type="tool_1:Unset" featureName="father"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="unsetMother" forceRefresh="true">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:element">
+                <subModelOperations xsi:type="tool_1:Unset" featureName="mother"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="org.eclipse.dsl.basicfamily.design.Services"/>
+  </ownedViewpoints>
+</description:Group>

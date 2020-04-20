@@ -1,0 +1,124 @@
+/**
+ */
+package org.eclipse.dsl.basicfamily.basicfamily;
+
+import org.eclipse.emf.common.util.EList;
+
+import org.eclipse.emf.ecore.EObject;
+
+/**
+ * <!-- begin-user-doc -->
+ * A representation of the model object '<em><b>Person</b></em>'.
+ * <!-- end-user-doc -->
+ *
+ * <p>
+ * The following features are supported:
+ * </p>
+ * <ul>
+ *   <li>{@link org.eclipse.dsl.basicfamily.basicfamily.Person#getNeweclass3 <em>Neweclass3</em>}</li>
+ *   <li>{@link org.eclipse.dsl.basicfamily.basicfamily.Person#getNeweclass4 <em>Neweclass4</em>}</li>
+ *   <li>{@link org.eclipse.dsl.basicfamily.basicfamily.Person#getName <em>Name</em>}</li>
+ *   <li>{@link org.eclipse.dsl.basicfamily.basicfamily.Person#getChildren <em>Children</em>}</li>
+ *   <li>{@link org.eclipse.dsl.basicfamily.basicfamily.Person#getParents <em>Parents</em>}</li>
+ * </ul>
+ *
+ * @see org.eclipse.dsl.basicfamily.basicfamily.BasicfamilyPackage#getPerson()
+ * @model abstract="true"
+ * @generated
+ */
+public interface Person extends EObject {
+	/**
+	 * Returns the value of the '<em><b>Neweclass3</b></em>' reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Neweclass3</em>' reference.
+	 * @see #setNeweclass3(Man)
+	 * @see org.eclipse.dsl.basicfamily.basicfamily.BasicfamilyPackage#getPerson_Neweclass3()
+	 * @model derived="true"
+	 * @generated
+	 */
+	Man getNeweclass3();
+
+	/**
+	 * Sets the value of the '{@link org.eclipse.dsl.basicfamily.basicfamily.Person#getNeweclass3 <em>Neweclass3</em>}' reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @param value the new value of the '<em>Neweclass3</em>' reference.
+	 * @see #getNeweclass3()
+	 * @generated
+	 */
+	void setNeweclass3(Man value);
+
+	/**
+	 * Returns the value of the '<em><b>Neweclass4</b></em>' reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Neweclass4</em>' reference.
+	 * @see #setNeweclass4(Woman)
+	 * @see org.eclipse.dsl.basicfamily.basicfamily.BasicfamilyPackage#getPerson_Neweclass4()
+	 * @model derived="true"
+	 * @generated
+	 */
+	Woman getNeweclass4();
+
+	/**
+	 * Sets the value of the '{@link org.eclipse.dsl.basicfamily.basicfamily.Person#getNeweclass4 <em>Neweclass4</em>}' reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @param value the new value of the '<em>Neweclass4</em>' reference.
+	 * @see #getNeweclass4()
+	 * @generated
+	 */
+	void setNeweclass4(Woman value);
+
+	/**
+	 * Returns the value of the '<em><b>Name</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Name</em>' attribute.
+	 * @see #setName(String)
+	 * @see org.eclipse.dsl.basicfamily.basicfamily.BasicfamilyPackage#getPerson_Name()
+	 * @model
+	 * @generated
+	 */
+	String getName();
+
+	/**
+	 * Sets the value of the '{@link org.eclipse.dsl.basicfamily.basicfamily.Person#getName <em>Name</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @param value the new value of the '<em>Name</em>' attribute.
+	 * @see #getName()
+	 * @generated
+	 */
+	void setName(String value);
+
+	/**
+	 * Returns the value of the '<em><b>Children</b></em>' reference list.
+	 * The list contents are of type {@link org.eclipse.dsl.basicfamily.basicfamily.Person}.
+	 * It is bidirectional and its opposite is '{@link org.eclipse.dsl.basicfamily.basicfamily.Person#getParents <em>Parents</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Children</em>' reference list.
+	 * @see org.eclipse.dsl.basicfamily.basicfamily.BasicfamilyPackage#getPerson_Children()
+	 * @see org.eclipse.dsl.basicfamily.basicfamily.Person#getParents
+	 * @model opposite="parents"
+	 * @generated
+	 */
+	EList<Person> getChildren();
+
+	/**
+	 * Returns the value of the '<em><b>Parents</b></em>' reference list.
+	 * The list contents are of type {@link org.eclipse.dsl.basicfamily.basicfamily.Person}.
+	 * It is bidirectional and its opposite is '{@link org.eclipse.dsl.basicfamily.basicfamily.Person#getChildren <em>Children</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Parents</em>' reference list.
+	 * @see org.eclipse.dsl.basicfamily.basicfamily.BasicfamilyPackage#getPerson_Parents()
+	 * @see org.eclipse.dsl.basicfamily.basicfamily.Person#getChildren
+	 * @model opposite="children" upper="2"
+	 * @generated
+	 */
+	EList<Person> getParents();
+
+} // Person

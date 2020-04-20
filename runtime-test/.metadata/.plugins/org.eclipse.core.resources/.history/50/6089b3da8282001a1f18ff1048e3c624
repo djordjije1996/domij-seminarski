@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<basicfamily:Family xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basicfamily="http://www.eclipse.org/dsl/basicfamily" name="Nemanjici">
+  <members xsi:type="basicfamily:Man" name="Stefan Nemanja" children="//@members.2 //@members.3 //@members.4"/>
+  <members xsi:type="basicfamily:Woman" name="Anastasija" children="//@members.2 //@members.3 //@members.4"/>
+  <members xsi:type="basicfamily:Man" father="//@members.0" mother="//@members.1" name="Vukan" parents="//@members.1 //@members.0"/>
+  <members xsi:type="basicfamily:Man" father="//@members.0" mother="//@members.1" name="Stefan Prvovjencani" children="//@members.6 //@members.7" parents="//@members.0 //@members.1"/>
+  <members xsi:type="basicfamily:Man" father="//@members.0" mother="//@members.1" name="Rastko" parents="//@members.0 //@members.1"/>
+  <members xsi:type="basicfamily:Woman" name="Eudokia Angelina" children="//@members.6 //@members.7"/>
+  <members xsi:type="basicfamily:Man" mother="//@members.5" name="Radoslav" parents="//@members.5 //@members.3"/>
+  <members xsi:type="basicfamily:Woman" father="//@members.3" mother="//@members.5" name="Komnena" parents="//@members.3 //@members.5"/>
+  <members xsi:type="basicfamily:Man" mother="//@members.7" name="Dragutin"/>
+  <members xsi:type="basicfamily:Man" name="Em"/>
+  <members xsi:type="basicfamily:Woman"/>
+</basicfamily:Family>
